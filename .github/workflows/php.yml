@@ -1,4 +1,4 @@
-name: PHP Composer
+name: Continuous Learning
 
 on:
   push:
@@ -15,6 +15,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Setup PHP
+  	  uses: shivammathur/setup-php@v2
+  	  with:
+        php-version: '8.3'
+
     - uses: actions/checkout@v4
 
     - name: Validate composer.json and composer.lock
