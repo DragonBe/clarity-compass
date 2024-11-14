@@ -6,7 +6,7 @@ namespace DragonBe\ClarityCompassTest\Model;
 use DragonBe\ClarityCompass\Model\VatId;
 use DragonBe\ClarityCompass\Model\VatIdInterface;
 use PHPUnit\Framework\Attributes\Test;
-use PHPUnit\Framwork\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class VatIdTest extends TestCase
 {
