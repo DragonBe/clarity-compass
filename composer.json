@@ -1,0 +1,26 @@
+{
+    "name": "dragonbe/clarity-compass",
+    "description": "Identifies businesses registered within the EU",
+    "type": "project",
+    "keywords": ["business","vat","iban","vies","eu","europe"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.3",
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.11",
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^11.4",
+        "behat/behat": "^3.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dragonbe\\ClarityCompass\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dragonbe\\ClarityCompassTest\\": "tests/"
+        }
+    }
+}
