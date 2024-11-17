@@ -38,6 +38,11 @@ class VatIdTest extends TestCase
         $this->assertSame($vatIdentifier, $vatId->getVatIdentifier());
     }
 
+    /**
+     * Provides a set of test VAT IDs to use for testing
+     *
+     * @return array<string, array<int, string>>
+     */
     public static function vatIdProvider(): array
     {
         return [
