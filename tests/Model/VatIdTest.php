@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace DragonBe\ClarityCompassTest\Model;
@@ -12,10 +13,10 @@ use PHPUnit\Framework\TestCase;
 #[CoversClass(VatId::class)]
 class VatIdTest extends TestCase
 {
-	#[Test]
-	public function testVatIdObjectImplementsVatIdInterface(): void
+    #[Test]
+    public function testVatIdObjectImplementsVatIdInterface(): void
     {
         $vatId = new VatId();
         $this->assertInstanceOf(VatIdInterface::class, $vatId);
-    }	
+    }
 }

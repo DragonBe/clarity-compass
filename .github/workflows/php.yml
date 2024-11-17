@@ -39,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress
 
+      - name: Validate coding standards
+        run: php vendor/bin/phpcs
+
       - name: Perform unit tests
         run: php vendor/bin/phpunit -c phpunit.xml.dist
 

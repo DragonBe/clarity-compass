@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Dragonbe\ClarityCompass\Model;
@@ -6,7 +7,9 @@ namespace Dragonbe\ClarityCompass\Model;
 final class VatId implements VatIdInterface
 {
     private string $countryPrefix;
+
     private string $vatIdentifier;
+
 
     public function __construct(string $countryPrefix = '', string $vatIdentifier = '')
     {
@@ -17,11 +20,11 @@ final class VatId implements VatIdInterface
     /**
      * @inheritDoc
      */
-	public function getCountryPrefix(): string
+    public function getCountryPrefix(): string
     {
         return $this->countryPrefix;
     }
-    
+
     /**
      * @inheritDoc
      */
