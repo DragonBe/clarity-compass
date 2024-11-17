@@ -43,7 +43,7 @@ jobs:
         run: php vendor/bin/phpcs
 
       - name: Static code analysis
-        run: php vendor/bin/phpstan -c phpstan.neon.dist
+        run: php vendor/bin/phpstan analyse -c phpstan.neon.dist
 
       - name: Perform unit tests
         run: php vendor/bin/phpunit -c phpunit.xml.dist
