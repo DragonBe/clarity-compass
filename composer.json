@@ -29,5 +29,21 @@
         "allow-plugins": {
             "infection/extension-installer": true
         }
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpstan": "phpstan analyse -c phpstan.neon.dist",
+        "phpunit": "phpunit -c phpunit.xml.dist",
+        "infection": "infection --configuration=infection.json5.dist",
+        "behat": "behat --config behat.yml.dist",
+        "run-all": ["@phpcs", "@phpstan", "@phpunit", "@infection", "behat"]
+    },
+    "scripts-descriptions": {
+        "phpcs": "Perform coding standards checking",
+        "phpstan": "Perform static analyisis on codebase",
+        "phpunit": "Perform unit tests on codebase",
+        "infection": "Perform mutation tests on codebase",
+        "behat": "Peform acceptance tests on codebase",
+        "run-all": "Perform all code quality checkers (phpcs, phpstan, phpunit, infection, behat)"
     }
 }
