@@ -1,4 +1,6 @@
+/build
 /vendor/
 /.phpunit.cache
+/infection.json5
 /phpcs.xml
 /phpunit.xml
