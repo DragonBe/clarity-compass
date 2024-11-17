@@ -49,4 +49,4 @@ jobs:
         run: php vendor/bin/phpunit -c phpunit.xml.dist
 
       - name: Perform mutation tests
-        run: php vendor/bin/infection -c infection.json5.dist
+        run: php vendor/bin/infection --configuration=infection.json5.dist
