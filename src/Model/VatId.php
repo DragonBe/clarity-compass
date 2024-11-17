@@ -5,17 +5,28 @@ namespace Dragonbe\ClarityCompass\Model;
 
 final class VatId implements VatIdInterface
 {
-	/**
-     * Retrieve the country prefix from the VAT ID
-     *
-     * @return string
-     */ 
-	public function getCountryPrefix(): string;
+    private string $countryPrefix;
+    private string $vatIdentifier;
+
+    public function __construct(string $countryPrefix = '', string $vatIdentifier = '')
+    {
+        $this->countryPrefix = $countryPrefix;
+        $this->vatIdentifier = $vatIdentifier;
+    }
+
+    /**
+     * @inheritDoc
+     */
+	public function getCountryPrefix(): string
+    {
+        return $this->countryPrefix;
+    }
     
     /**
-     * Retrieve the VAT identifier
-     *
-     * @return string
+     * @inheritDoc
      */
-    public function getVatId(): string;
+    public function getVatIdentifier(): string
+    {
+        return $this->vatIdentifier;
+    }
 }

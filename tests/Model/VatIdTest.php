@@ -3,11 +3,13 @@ declare(strict_types=1);
 
 namespace DragonBe\ClarityCompassTest\Model;
 
-use DragonBe\ClarityCompass\Model\VatId;
-use DragonBe\ClarityCompass\Model\VatIdInterface;
+use Dragonbe\ClarityCompass\Model\VatId;
+use Dragonbe\ClarityCompass\Model\VatIdInterface;
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
+#[CoversClass(VatId::class)]
 class VatIdTest extends TestCase
 {
 	#[Test]
