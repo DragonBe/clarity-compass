@@ -1,7 +1,7 @@
 {
     "name": "dragonbe/clarity-compass",
     "description": "Identifies businesses registered within the EU",
-    "type": "project",
+    "type": "library",
     "keywords": ["business","vat","iban","vies","eu","europe"],
     "license": "MIT",
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Dragonbe\\ClarityCompassTest\\": "tests/"
+            "Dragonbe\\ClarityCompassTest\\": "tests/unit/"
         }
     }
 }
