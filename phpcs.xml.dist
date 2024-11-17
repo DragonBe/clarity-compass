@@ -6,7 +6,7 @@
     <description>Project coding standards</description>
 
     <file>src</file>
-    <file>tests</file>
+    <file>tests/unit</file>
 
     <arg name="basepath" value="."/>
     <arg name="colors"/>
