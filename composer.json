@@ -21,7 +21,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Dragonbe\\ClarityCompassTest\\": "tests/unit/"
+            "Dragonbe\\ClarityCompassTest\\": "tests/unit/",
+            "Dragonbe\\ClarityCompassFeature\\Bootstrap\\": "tests/feature/bootstrap"
         }
     },
     "config": {

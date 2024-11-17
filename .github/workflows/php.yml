@@ -50,3 +50,6 @@ jobs:
 
       - name: Perform mutation tests
         run: php vendor/bin/infection --configuration=infection.json5.dist
+
+      - name: Perform acceptance tests
+        run: php vendor/bin/behat --config behat.yml.dist
