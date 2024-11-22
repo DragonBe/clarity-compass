@@ -18,6 +18,6 @@ interface MemberStateInterface
      * Retrieve the English name of a member state.
      *
      * @return string
-     */ 
+     */
     public function getMemberStateName(): string;
 }
