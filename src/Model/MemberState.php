@@ -1,6 +1,6 @@
 <?php
 
-declare('strict_types=1');
+declare(strict_types=1);
 
 namespace DragonBe\ClarityCompass\Model;
 
@@ -12,7 +12,8 @@ final class MemberState implements MemberStateInterface
     public function __construct(
         string $countryCode = '',
         string $memberStateName = ''
-    ) {
+    )
+    {
         $this->countryCode = $countryCode;
         $this->memberStateName = $memberStateName;
     }
