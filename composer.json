@@ -5,7 +5,7 @@
     "keywords": ["business","vat","iban","vies","eu","europe"],
     "license": "MIT",
     "require": {
-        "php": "^8.3"
+        "php": "^8.4"
     },
     "require-dev": {
         "behat/behat": "^3.16",
