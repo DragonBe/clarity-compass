@@ -1,5 +1,4 @@
 default:
-  autoload:
-    '': '%paths.base%/tests/feature/bootstrap'
   suites:
-    contexts: [Dragonbe\ClarityCompassFeature\Bootstrap\FeatureContext]
+    default:
+      contexts: [DragonBe\ClarityCompassFeature\Bootstrap\FeatureContext]

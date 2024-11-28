@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dragonbe\ClarityCompass\Model;
+namespace DragonBe\ClarityCompass\Model;
 
 interface VatIdInterface
 {

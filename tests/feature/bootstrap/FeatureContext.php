@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace DragonBe\ClarityCompassFeature\Bootstrap;
+
 use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\Context;
 use Behat\Gherkin\Node\PyStringNode;

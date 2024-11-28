@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Dragonbe\\ClarityCompass\\": "src/"
+            "DragonBe\\ClarityCompass\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dragonbe\\ClarityCompassTest\\": "tests/unit/",
-            "Dragonbe\\ClarityCompassFeature\\Bootstrap\\": "tests/feature/bootstrap"
+            "DragonBe\\ClarityCompassTest\\": "tests/unit/",
+            "DragonBe\\ClarityCompassFeature\\Bootstrap\\": "tests/feature/bootstrap"
         }
     },
     "config": {

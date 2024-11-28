@@ -17,6 +17,6 @@ class MemberStateTest extends TestCase
     public function testMemberStateImplementsMemberStateInterface(): void
     {
         $memberState = new MemberState();
-        $this->assertInstanceOf(MemberStateInterface::class);
+        $this->assertInstanceOf(MemberStateInterface::class, $memberState);
     }
 }

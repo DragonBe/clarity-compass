@@ -22,7 +22,7 @@ final class MemberState implements MemberStateInterface
      */
     public function getCountryCode(): string
     {
-        return $this->countryCode();
+        return $this->countryCode;
     }
     
     /**
@@ -30,6 +30,6 @@ final class MemberState implements MemberStateInterface
      */
     public function getMemberStateName(): string
     {
-        return $this->memberStateName();
+        return $this->memberStateName;
     }
 }
