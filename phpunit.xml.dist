@@ -13,7 +13,7 @@
          failOnRisky="true"
          failOnWarning="true">
     <testsuites>
-        <testsuite name="default">
+        <testsuite name="Clarity Compass Unit Tests">
             <directory>tests/unit</directory>
         </testsuite>
     </testsuites>
